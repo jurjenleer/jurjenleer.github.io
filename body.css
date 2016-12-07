@@ -38,6 +38,12 @@
     z-index:0;
 }
 
+@media(min-width:1000px{
+    #top-image{
+    height:300px;
+}
+})
+
 .main-text{
     margin-left:2.5%;
     margin-top:2.5%;
@@ -77,9 +83,9 @@
 }
 
 #gallery {
-    max-width: 90%;
-    width: 90% !important;
-    margin-left: 5%;
+    max-width: 80%;
+    width: 80% !important;
+    margin-left: 10%;
     margin-top: 10%;
 }
 
@@ -90,17 +96,19 @@
 
 .navbar-form.navbar-left .form-group {
     margin-left: 5%;
-    width: calc(95%);
+    width: 95%;
     display: inline-block;
 }
 
 .navbar-form.navbar-left .form-group #query {
-    width: 90%;
+    width: 79.5%;
+    margin-left:5%;
     float:left;
 }
 
 .btn-primary{
-    width:9.5%;
+    width:10%;
+    margin-right:5%;
     float:right;
     background-color:#3c9c2d;
 }
