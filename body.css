@@ -38,12 +38,6 @@
     z-index:0;
 }
 
-@media(min-width:1000px{
-    #top-image{
-    height:300px;
-}
-})
-
 .main-text{
     margin-left:2.5%;
     margin-top:2.5%;
